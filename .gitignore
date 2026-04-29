@@ -13,4 +13,4 @@ build/
 CLAUDE.md
 AGENTS.md
 support_agent_state.sqlite3
-
+data/
