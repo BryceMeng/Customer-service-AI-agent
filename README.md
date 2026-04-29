@@ -94,10 +94,10 @@ Order data is seeded deterministically per order ID. Useful test orders:
 ##### Report
 
 -- Response to customer
-![alt text](image.png)
+![alt text](images/image_121_report_user.png)
 
 -- Internal audit report
-![alt text](image.png)
+![alt text](images/image_121_report_internal_use.png)
 
 ### Run tests
 
