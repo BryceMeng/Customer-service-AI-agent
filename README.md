@@ -53,7 +53,7 @@ Two processes must be running simultaneously:
 
 ```bash
 # Terminal 1 — main API (port 8000)
-uv run uvicorn app.main:app --reload
+LOG_LEVEL=DEBUG DEBUG_MODE=true uv run uvicorn app.main:app --reload --log-level debug
 
 # Terminal 2 — MCP tool server (port 8765)
 uv run uvicorn app.mcp_http:app --host 127.0.0.1 --port 8765
